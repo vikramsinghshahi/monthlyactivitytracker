@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600&display=swap');
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.3rem;
+  padding: 2rem 0;
+  color: hsl(207, 73%, 57%);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 30rem;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.handleInput {
+  padding: 0.7rem 1.5rem;
+  flex: 0 1 70%;
+  outline: none;
+  color: #757272;
+  border: 2px solid #d3d1d1;
+}
+
+/* input[type='text']:focus {
+  border: none;
+} */
+
+.btn_sub {
+  flex: 0 1 30%;
+  background-color: rgb(0, 209, 178);
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.activity_sec {
+  margin-top: 3rem;
+}
+
+.box {
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  margin-bottom: 1.5rem;
+}
+
+.col-1 {
+  flex: 0 1 30%;
+  text-align: center;
+  background-color: rgb(239, 245, 251);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.month {
+  background-color: rgb(255, 99, 71);
+  padding: 3px;
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: white;
+  border-radius: 5px;
+}
+.col-2 {
+  flex: 0 1 65%;
+}
+
+.box_btn {
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  background-color: transparent;
+  border: 1px solid #d1cdcd;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  width: 4rem;
+}
+
+.active {
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  background-color: transparent;
+  border: 1px solid #d1cdcd;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  width: 4rem;
+  background-color: #32973a;
+}
+
+.col-2 button:hover {
+  border: 1px solid blue;
+}
+
+.cross p {
+  background-color: rgb(255, 99, 71);
+  height: 1.2rem;
+  width: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
